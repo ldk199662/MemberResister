@@ -8,7 +8,7 @@ import java.util.Optional;
 
 public class JpaMemberRepository implements MemberRepository {
 
-    // jap사용시 꼭 적어야 함
+    // jpa 사용시 꼭 적어야 함
     private final EntityManager em;
     public JpaMemberRepository(EntityManager em) {
         this.em = em;
